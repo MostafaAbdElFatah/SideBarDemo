@@ -14,6 +14,8 @@
 		71B166A01F236D8700EFDFF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71B1669E1F236D8700EFDFF3 /* LaunchScreen.storyboard */; };
 		71B166AB1F236D8700EFDFF3 /* SideBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B166AA1F236D8700EFDFF3 /* SideBarTests.swift */; };
 		71B166B61F236D8700EFDFF3 /* SideBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B166B51F236D8700EFDFF3 /* SideBarUITests.swift */; };
+		71B166C41F236E0E00EFDFF3 /* SideBarMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B166C31F236E0E00EFDFF3 /* SideBarMenu.swift */; };
+		71B166C61F2375E600EFDFF3 /* SideBarObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B166C51F2375E600EFDFF3 /* SideBarObject.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		71B166B11F236D8700EFDFF3 /* SideBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SideBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		71B166B51F236D8700EFDFF3 /* SideBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBarUITests.swift; sourceTree = "<group>"; };
 		71B166B71F236D8700EFDFF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71B166C31F236E0E00EFDFF3 /* SideBarMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideBarMenu.swift; sourceTree = "<group>"; };
+		71B166C51F2375E600EFDFF3 /* SideBarObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideBarObject.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				71B1669C1F236D8700EFDFF3 /* Assets.xcassets */,
 				71B1669E1F236D8700EFDFF3 /* LaunchScreen.storyboard */,
 				71B166A11F236D8700EFDFF3 /* Info.plist */,
+				71B166C31F236E0E00EFDFF3 /* SideBarMenu.swift */,
+				71B166C51F2375E600EFDFF3 /* SideBarObject.swift */,
 			);
 			path = SideBar;
 			sourceTree = "<group>";
@@ -257,7 +263,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				71B166981F236D8700EFDFF3 /* ViewController.swift in Sources */,
+				71B166C41F236E0E00EFDFF3 /* SideBarMenu.swift in Sources */,
 				71B166961F236D8700EFDFF3 /* AppDelegate.swift in Sources */,
+				71B166C61F2375E600EFDFF3 /* SideBarObject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,6 +405,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = SideBar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Mostafa.SideBar;
@@ -408,6 +417,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = SideBar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Mostafa.SideBar;
